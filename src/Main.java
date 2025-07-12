@@ -6,13 +6,21 @@ public class Main {
     public static void main(String[] args) {
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
-        int number = 100;
-        String name = "Abdullahi";
-        Date date = new Date();
+//        int number = 100;
+//        String name = "Abdullahi";
+//        Date date = new Date();
 
-        System.out.println(name);
+//        System.out.println(name);
 
-        primitiveDataType();
+        String name = new String("abdullahi");
+        System.out.println(name.toUpperCase());
+        System.out.println(name.toLowerCase());
+        System.out.println(name.charAt(1));
+        String code = new String("bdu");
+        System.out.println(name.contains(code));
+        System.out.println(name.equals(code));
+
+//        primitiveDataType();
     }
 
     public static void primitiveDataType() {
